@@ -10,4 +10,4 @@ WORKDIR /usr/src/demo
 EXPOSE 8080
 
 # Chạy ứng dụng khi container được khởi động
-CMD ["java", "-jar", "target/demo.jar"]
+CMD ["java", "-jar", "demo.jar"]
